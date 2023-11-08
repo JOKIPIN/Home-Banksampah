@@ -36,8 +36,9 @@ list-style: none;
 }
 
 .header {
-    background-color: #7743DB;
+    background-color: #83BD75;
     color: #fff;
+    padding: 0px 10px;
   }
   
   .wrapper {
@@ -49,12 +50,6 @@ list-style: none;
     text-align: center;
   }
 
-  .wrapper p {
-    font-size: 18px;
-    line-height: 1.5;
-    text-align: justify; /* Menjadikan paragraf rata kiri-kanan */
-    margin: 0 20px; /* Memberi margin kanan dan kiri pada paragraf */
-}
 
 .carousel-section {
   max-width: 400px;
