@@ -36,24 +36,8 @@ list-style: none;
 }
 
 .header {
-    background-color: #3f148f;
+    background-color: #7743DB;
     color: #fff;
-    height: 90px;
-  }
-  
-  .header-logo {
-    float: left;
-    font-size: 36px;
-    padding: 20px 40px;
-  }
-  
-  .header-list li {
-    float: right;
-    padding: 33px 20px;
-  }
-  .header-list li:hover {
-    background-color: #fff;
-    color: #148f77;
   }
   
   .wrapper {
@@ -72,6 +56,10 @@ list-style: none;
     margin: 0 20px; /* Memberi margin kanan dan kiri pada paragraf */
 }
 
+.carousel-section {
+  max-width: 400px;
+  margin:5px auto;
+}
 
 
   /*footer*/
@@ -145,3 +133,4 @@ footer {
     font-size: 18px;
     line-height: 1.5;
   }
+
