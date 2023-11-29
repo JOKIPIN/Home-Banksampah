@@ -113,10 +113,12 @@ a {
 
 .carousel-item {
   height: 400px;
+  width: 600px;
 }
 
 .carousel-item img {
   height: 400px;
+  width: 600px;
 }
 
   /*footer*/
