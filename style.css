@@ -31,7 +31,7 @@ body {
 font-family: "sans-serif";
 }
 
-li {
+.nav-item {
 list-style: none;
 }
 
