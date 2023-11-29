@@ -49,19 +49,6 @@ h2 {
     color: #4CAF50; /* Hijau */
 }
 
-ul, ol {
-    list-style: none;
-}
-
-ul li::before, ol li::before {
-    content: "\2022";
-    color: #4CAF50; /* Hijau */
-    font-weight: bold;
-    display: inline-block;
-    width: 1em;
-    margin-left: -1em;
-}
-
 strong {
     font-weight: bold;
 }
