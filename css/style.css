@@ -30,7 +30,12 @@ h1 {
 }
 
 h2 {
+  font-size: 28px;
   color: #4CAF50; /* Hijau */
+}
+h3{
+  font-size: 20px;
+  font-weight: bold;
 }
 
 strong {
