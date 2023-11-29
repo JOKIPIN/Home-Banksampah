@@ -1,0 +1,193 @@
+/* responsif */
+@media (max-width: 768px) {
+body {
+    font-size: 16px; 
+  }
+
+  .header-logo {
+    font-size: 24px; 
+  }
+
+  .header-list ul {
+    flex-direction: column; 
+  }
+
+  .header-list li {
+    padding: 10px 0;
+  }
+
+  .intro-image {
+    width: 100%; 
+  }
+
+  .portfolio-item {
+    width: 100%; 
+  }
+}
+  
+h1 {
+  margin: 0;
+}
+
+h2 {
+  color: #4CAF50; /* Hijau */
+}
+
+strong {
+  font-weight: bold;
+}
+
+/* Catatan */
+p strong {
+  color: #4CAF50; /* Hijau */
+}
+
+ul ul, ol ul {
+  list-style-type: disc;
+  margin-left: 20px;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  background-color: #ffffff; /* Putih */
+  color: #333; /* Warna teks utama */
+  margin: 0;
+  padding: 0;
+}
+
+.nav-item {
+list-style: none;
+}
+
+.header {
+    background-color: #83BD75;
+    color: #fff;
+    padding: 0px 10px;
+  }
+
+section {
+    margin: 20px;
+    padding: 20px;
+    background-color: #ffffff; /* Putih */
+}
+
+#penjelasan-bank-sampah, #proses-pengolahan-sampah, #jenis-sampah-dan-daur-ulang, #manfaat-daur-ulang, #cara-terlibat, #pembuatan-eco-enzyme {
+  background-color: #ffffff; /* Putih */
+  color: #333; /* Warna teks utama */
+  margin: 20px;
+  padding: 20px;
+  max-width: 800px;
+  text-align: justify;
+  margin: 0 auto;
+}
+
+#gambar-dan-ilustrasi img {
+  max-width: 100%;
+}
+
+.jenis-sampah {
+  margin-bottom: 100px;
+}
+
+a {
+  color: #4CAF50; /* Hijau */
+  text-decoration: none;
+}
+  
+  /* .wrapper {
+    margin-top: 10%;
+    margin-bottom: 10%;
+    padding-bottom: 100px;
+    background: #fff;
+    background-size: cover;
+    color: black;
+    text-align: center;
+  } */
+
+
+.carousel-section {
+  width: 600px;
+  height: 400px;
+  margin:5px auto;
+}
+
+.carousel-item {
+  height: 400px;
+}
+
+.carousel-item img {
+  height: 400px;
+}
+
+  /*footer*/
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 20px 0;
+}
+
+.footer-content {
+    max-width: 960px;
+    margin: 0 auto;
+}
+
+.footer-content p {
+    margin: 5px 0;
+}
+
+.footer-content a {
+    color: #fff;
+    text-decoration: none;
+}
+.cv-button {
+    display: inline-block;
+    padding: 10px 20px;
+    background: #3f148f;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+    font-weight: bold;
+    transition: background 0.3s ease;
+  }
+  
+  .cv-button:hover {
+    background: #148f77;
+  }
+  
+.intro-image {
+    width: 300px;
+    height: 250px;
+    margin-right: 20px; 
+    float: left; 
+    border: 1px solid #333; 
+    border-radius: 10px; 
+}
+
+.wrapper {
+    margin-top: 15px;
+    background: #fff;
+    background-size: cover;
+    color: #333; 
+    text-align: left; 
+}
+  .wrapper h1 {
+    margin-top: 15px;
+    font-size: 36px;
+    font-weight: bold;
+    margin-bottom: 20px;
+    /* color: #3f148f;  */
+  }
+  
+  .wrapper h2 {
+    font-size: 24px;
+    font-weight: normal;
+    margin-bottom: 30px;
+    color: #555; 
+  }
+  
+  .wrapper p {
+    font-size: 18px;
+    line-height: 1.5;
+  }
+

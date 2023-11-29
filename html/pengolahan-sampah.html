@@ -4,9 +4,8 @@
     <meta charset="UTF-8">
     <title>Pengolahan Sampah dan Daur Ulang</title>
     <meta name="description" content="Informasi tentang pengolahan sampah dan daur ulang dari bank sampah.">
-    <link rel="stylesheet" type="text/css" href="style-pengolahan.css">
-    <link rel="stylesheet" href="style.css">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <link rel="stylesheet" href="../css/style.css" />
 </head>
 <body>
     <nav class="navbar navbar-expand-lg navbar-dark bg-success">
@@ -18,7 +17,7 @@
           <div class="collapse navbar-collapse" id="navbarSupportedContent">
             <ul class="navbar-nav mb-2 mb-lg-0 ms-auto me-4">
               <li class="nav-item">
-                <a class="nav-link" href="./index.html">Home</a>
+                <a class="nav-link" href="../index.html">Home</a>
               </li>
               <li class="nav-item">
                 <a class="nav-link active" aria-current="page" href="./pengolahan-sampah.html">Pengolahan Sampah</a>
@@ -31,30 +30,19 @@
         </div>
     </nav>
 
-        <div class="gambar-dan-ilustrasi">
-            <div class="carousel-section">
-              <div id="carouselExampleAutoplaying" class="carousel slide" data-bs-ride="carousel">
-                <div class="carousel-inner">
-                  <div class="carousel-item active">
-                    <img src="Bank Sampah.png" class="d-block w-100" alt="...">
-                  </div>
-                  <div class="carousel-item">
-                    <img src="slogan.png" class="d-block w-100" alt="...">
-                  </div>
-                  <div class="carousel-item">
-                    <img src="pengolahan sampah.png" class="d-block w-100" alt="...">
-                  </div>
-                </div>
-                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide="prev">
-                  <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                  <span class="visually-hidden">Previous</span>
-                </button>
-                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide="next">
-                  <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                  <span class="visually-hidden">Next</span>
-                </button>
-              </div>
-            </div>
+    <section class="py-5 m-0 mb-5 text-center text-white" style="background-image: url('../images/about_bg1_edited.png'); background-position: center center;">
+        <div class="row py-lg-5">
+          <div class="col-lg-6 col-md-8 mx-auto">
+            <h1>Bank Sampah Dusun Banjarejo</h1>
+            <p class=" text-white">Pilah-pilih sampah, jaga lingkungan, tambah penghasilan.</p>
+            <p class="lead text-white">Ikut bersama kami ciptakan lingkungan yang bersih dengan cermat kelola sampah.</p>
+            <!-- <p>
+              <a href="#" class="btn btn-success my-2">Main call to action</a>
+              <a href="#" class="btn btn-secondary my-2">Secondary action</a>
+            </p> -->
+          </div>
+        </div>
+      </section>
 
     <section id="penjelasan-bank-sampah">
         <h2>Apa Itu Bank Sampah?</h2>
@@ -71,7 +59,6 @@
         <p>Pada sistem bank sampah ini, pengolahan dan implementasi yaitu, setiap rumah mengumpulkan sampah-sampah mereka. 
             Sampah-sampah itu kemudian dipisahkan ke kategori sampah plastik, sampah logam, dan sampah organik. Sampah plastik 
             dan sampah logam yang telah dikumpulkan akan akan di ambil oleh pengepul setempat. Sedangkan sampah organik akan diproses menjadi pupuk atau eco-enzyme.</p>
-        
     </section>
 
     <section id="jenis-sampah-dan-daur-ulang">
@@ -79,19 +66,91 @@
         <div class="jenis-sampah">
             <h3>Sampah Plastik</h3>
             <p>Sampah plastik adalah jenis sampah yang terbuat dari berbagai jenis plastik, seperti botol plastik, kantong plastik, wadah plastik, dan lain sebagainya.</p>
-            <img src="contoh sampah plastik.png" alt="Contoh Sampah Plastik">
+            <div class="gambar-dan-ilustrasi">
+                <div class="carousel-section">
+                  <div id="carouselExampleAutoplaying" class="carousel slide" data-bs-ride="carousel">
+                    <div class="carousel-inner">
+                      <div class="carousel-item active">
+                        <img src="../images/pengolahan_sampah/sampah_plastik/contoh sampah plastik.png" class="d-block w-100 object-fit-cover" alt="...">
+                      </div>
+                      <div class="carousel-item">
+                        <img src="../images/pengolahan_sampah/sampah_plastik/kantong plastik.jpg" class="d-block w-100 object-fit-cover" alt="...">
+                      </div>
+                      <div class="carousel-item">
+                        <img src="../images/pengolahan_sampah/sampah_plastik/plastic.jpg" class="d-block w-100 object-fit-cover" alt="...">
+                      </div>
+                    </div>
+                    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide="prev">
+                      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                      <span class="visually-hidden">Previous</span>
+                    </button>
+                    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide="next">
+                      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                      <span class="visually-hidden">Next</span>
+                    </button>
+                  </div>
+                </div>
+            </div>
         </div>
 
         <div class="jenis-sampah">
             <h3>Sampah Logam</h3>
             <p>Sampah logam termasuk bahan seperti kaleng aluminium, kaleng timah, potongan logam, dan lain sebagainya.</p>
-            <img src="sampah kaleng.png" alt="Contoh Sampah Logam">
+            <div class="gambar-dan-ilustrasi">
+              <div class="carousel-section">
+                <div id="carouselExampleAutoplaying" class="carousel slide" data-bs-ride="carousel">
+                  <div class="carousel-inner">
+                    <div class="carousel-item active">
+                      <img src="../images/pengolahan_sampah/sampah_logam/sampah kaleng.png" class="d-block w-100 object-fit-contain" alt="...">
+                    </div>
+                    <div class="carousel-item">
+                      <img src="../images/pengolahan_sampah/sampah_logam/logam 2.jpeg" class="d-block w-100 object-fit-contain" alt="...">
+                    </div>
+                    <div class="carousel-item">
+                      <img src="../images/pengolahan_sampah/sampah_logam/logam 3.jpg" class="d-block w-100 object-fit-contain" alt="...">
+                    </div>
+                  </div>
+                  <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Previous</span>
+                  </button>
+                  <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Next</span>
+                  </button>
+                </div>
+              </div>
+            </div>
         </div>
 
-        <div class="jenis-sampah">
+        <div class="jenis-sampah-2">
             <h3>Sampah Organik</h3>
             <p>Sampah organik terdiri dari bahan-bahan yang mudah membusuk, seperti sisa makanan, daun, ranting, atau bahan-bahan organik lainnya.</p>
-            <img src="organik.png" alt="Contoh Sampah Organik">
+            <div class="gambar-dan-ilustrasi">
+                <div class="carousel-section">
+                  <div id="carouselExampleAutoplaying" class="carousel slide" data-bs-ride="carousel">
+                    <div class="carousel-inner">
+                      <div class="carousel-item active">
+                        <img src="Bank Sampah.png" class="d-block w-100" alt="...">
+                      </div>
+                      <div class="carousel-item">
+                        <img src="slogan.png" class="d-block w-100" alt="...">
+                      </div>
+                      <div class="carousel-item">
+                        <img src="pengolahan sampah.png" class="d-block w-100" alt="...">
+                      </div>
+                    </div>
+                    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide="prev">
+                      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                      <span class="visually-hidden">Previous</span>
+                    </button>
+                    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide="next">
+                      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                      <span class="visually-hidden">Next</span>
+                    </button>
+                  </div>
+                </div>
+            </div>
         </div>
     </section>
 
@@ -145,7 +204,8 @@
         </section>
 
         <section id="pembuatan-eco-enzyme">
-            <h2>Eco-Enzyme adalah cairan ramah lingkungan yang dapat digunakan untuk berbagai keperluan rumah tangga, seperti pembersih, pupuk, dan lainnya. Eco-enzyme dibuat dengan fermentasi bahan-bahan organik, dan berikut adalah langkah-langkah untuk membuatnya:</h2>
+            <h2>Eco-Enzyme</h2>
+            <p>Eco-Enzyme adalah cairan ramah lingkungan yang dapat digunakan untuk berbagai keperluan rumah tangga, seperti pembersih, pupuk, dan lainnya. Eco-enzyme dibuat dengan fermentasi bahan-bahan organik, dan berikut adalah langkah-langkah untuk membuatnya:</p>
             <ul>
                 <li><strong>Bahan yang Diperlukan:</strong>
                     <ul>
