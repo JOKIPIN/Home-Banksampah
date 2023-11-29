@@ -31,10 +31,6 @@ section {
     max-width: 100%;
 }
 
-.carousel-section {
-    max-width: 400px;
-    margin:5px auto;
-  }
   
 
 #penjelasan-bank-sampah, #proses-pengolahan-sampah, #jenis-sampah-dan-daur-ulang, #manfaat-daur-ulang, #cara-terlibat, #pembuatan-eco-enzyme {
@@ -43,6 +39,10 @@ section {
     margin: 20px;
     padding: 20px;
     border: 1px solid #4CAF50; /* Hijau */
+}
+
+.jenis-sampah {
+    margin-bottom: 100px;
 }
 
 h2 {
