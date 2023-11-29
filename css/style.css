@@ -71,7 +71,7 @@ section {
     background-color: #ffffff; /* Putih */
 }
 
-#penjelasan-bank-sampah, #proses-pengolahan-sampah, #jenis-sampah-dan-daur-ulang, #manfaat-daur-ulang, #cara-terlibat, #pembuatan-eco-enzyme {
+#penjelasan-bank-sampah, #proses-pengolahan-sampah, #jenis-sampah-dan-daur-ulang, #manfaat-daur-ulang, #cara-terlibat, #pembuatan-eco-enzyme, #home-content {
   background-color: #ffffff; /* Putih */
   color: #333; /* Warna teks utama */
   margin: 20px;
@@ -86,7 +86,7 @@ section {
 }
 
 .jenis-sampah {
-  margin-bottom: 100px;
+  margin-bottom: 80px;
 }
 
 a {
@@ -119,6 +119,7 @@ a {
 .carousel-item img {
   height: 400px;
   width: 600px;
+  border-radius: 20px;
 }
 
   /*footer*/
