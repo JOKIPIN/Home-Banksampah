@@ -30,7 +30,12 @@ h1 {
 }
 
 h2 {
+  font-size: 28px;
   color: #4CAF50; /* Hijau */
+}
+h3{
+  font-size: 20px;
+  font-weight: bold;
 }
 
 strong {
@@ -111,14 +116,13 @@ a {
   margin:5px auto;
 }
 
-.carousel-item {
+/* .carousel-item {
   height: 400px;
   width: 600px;
 }
-
+*/
 .carousel-item img {
-  height: 400px;
-  width: 600px;
+
   border-radius: 20px;
 }
 
