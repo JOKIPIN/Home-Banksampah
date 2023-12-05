@@ -122,7 +122,7 @@ a {
 }
 */
 .carousel-item img {
-
+  height: 400px;
   border-radius: 20px;
 }
 
